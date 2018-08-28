@@ -1,0 +1,14 @@
+{
+	"title": "Wyver Solutions book",
+	"description": "A book to help aspiring solutions consultants and architects",
+	"author": "Mark Berthelemy",
+
+
+    "plugins": ["insert-logo-link"],
+    "pluginsConfig": {
+        "insert-logo-link": {
+            "src": "/wyversolutions_logo_65h.png",
+            "url": "http://www.wyversolutions.co.uk"
+        }
+    }
+}
