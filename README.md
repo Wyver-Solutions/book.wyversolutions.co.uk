@@ -1,4 +1,4 @@
 A gradually evolving book designed to help aspiring solutions architects and consultants.
 
-Project
+![Circle diagram](images/circle-diagram.svg.png)
 
