@@ -4,7 +4,7 @@
 	"author": "Mark Berthelemy",
 
 
-    "plugins": ["insert-logo-link","pageinfo","-sharing"],
+    "plugins": ["insert-logo-link","pageinfo","-sharing","-creativecommons"],
     "pluginsConfig": {
         "insert-logo-link": {
             "src": "/wyversolutions_logo_65h.png",
