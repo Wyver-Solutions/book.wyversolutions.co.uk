@@ -1,3 +1,5 @@
+To install plugins: gitbook install
+
 To test: gitbook serve
 
 To create static site: gitbook build
