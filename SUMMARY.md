@@ -3,6 +3,7 @@
 ### Introduction
 
 * [Dev notes](100-dev-notes/index.md)
+* [License](010-license/index.md)
 
 ### People
 
