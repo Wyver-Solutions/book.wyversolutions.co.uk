@@ -10,4 +10,11 @@
 ## Virtual or face-to-face?
 
 
-## 
+## Communication skills
+
+- Presentations (1 -> Many)
+- Workshops (Many <> Many)
+- Consulting (1 <> 1)
+- Writing (1 -> Many)
+
+
