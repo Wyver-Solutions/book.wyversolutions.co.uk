@@ -1,100 +1,116 @@
-Product Management Manual
-                
-Purpose
-This document provides a blueprint for members of the Product Management team.
-It provides an introduction to and guidance on:
-1.  The Product Team
-2.  The Product standards framework
-3.  The end-to-end product management process
-4.  The Product Innovation Funnel
-5.  The role of the Product Manager and Product Owner in the development process
-6.  How work can be organised using an agile approach
-7.  The role of the various tools available to support your work
+A product is anything that has been designed for other people to use. It could be a physical object, a piece of software, or a service.
 
- 
-The Product Team
-The diagram below illustrates a typical agile development organisation.
-Note that we have assumed Operations and Development will remain separate. Many organisations now have combined these two functions into a combined DevOps team.
+Products should meet a real need.
+
+Much has been been written about Product Development over the last few years. If you're new on this journey, please see the [Recommended Reading](#recommended-reading).
+
+The following notes are a distillation of the ideas I use in my product workshops.
+
+## Product business case
+
+Roman Pichler
+
+## Product phases
+
+Discovery, Alpha, Beta, Live
+
+GDS
+
+## Organising teams for effective product delivery
  
-Senior Management Team
-●   Take a governance role
-●   Ask the tough questions to ensure that standards are maintained (see Product Standards below) and the product remains commercially viable
-Product Manager
-The product manager is often considered the CEO of the product and is responsible for the strategy, roadmap, and feature definition for that product or product line. The position may also include marketing, forecasting, and profit and loss (P&L) responsibilities.
-https://www.aha.io/roadmapping/guide/product-management/what-is-the-role-of-a-product-manager 
-The Product Manager:
-●   Finds out what the users need
-●   Find out what the competitors are doing
-●   Reports directly to the Senior Management team
-●   Liaises closely with sales & marketing, especially with regard to research and communicating new features / improvements
-●   Liaises closely with Operations to plan releases and provide documentation for the support team
-●   Ensures the product meets the Product Standards
-●   Collates & analyses product research from internal & external sources
-●   Prioritizes key product features (Epics)
-●   Prioritises the Epics to achieve maximum customer benefit in the shortest time for the lowest cost
-●   Allocates product features to Product Teams
-●   Plans and manages the Release process, including all communications to internal and external stakeholders
-Much of the research will be delegated to Product Teams, who will then report back to the Product Manager.
-Product team roles
+### Senior Management Team
+
+The SMT take a governance role and ask the tough questions to ensure that the [product standards](#) are maintained and the product remains financially viable
+
+### Product Manager
+
+The Product Manager role is often, in smaller organisations, combined with the Product Owner role.
+
+The product manager is often considered to be the CEO of the product and is responsible for the strategy, roadmap, and feature definition for that product or product line.
+
+The position may also include marketing, forecasting, and profit and loss (P&L) responsibilities.
+
+See: https://www.aha.io/roadmapping/guide/product-management/what-is-the-role-of-a-product-manager 
+
+Key duties:
+
+- Find out what the users need
+- Find out what the competitors are doing
+- Report directly to the Senior Management team
+- Liaise closely with sales & marketing, especially with regard to research and communicating new features / improvements
+- Liaise closely with Operations to plan releases and provide documentation for the support team
+- Ensure the product meets the [Product Standards](#)
+- Collate & analyses product research from internal & external sources
+- Prioritize key product features (Epics)
+- Prioritise the Epics to achieve maximum customer benefit in the shortest time for the lowest cost
+- Allocate product features to Product Teams
+- Plan and manage the Release process, including all communications to internal and external stakeholders
+
+Much of the research will be delegated to the [Product Team](#), who will then report back to the Product Manager.
+
+### Product Owner 
+
+The Product Owner role is often, in smaller organisations, combined with the Product Manager role.
+
+Key duties:
+
+- Liaise closely with the Product Manager to identify priorities
+- Define and prioritises the user stories and tasks to go into the next sprint
+- Defines the top priority items in enough detail so they meet the Definition of Ready for the [Product Team](#) to build and test each item in a few days
+- Reviews the outputs from each sprint
+
+### User Research
+
+- Undertakes user research to understand what new features are required and how they might work
+- Works with the [UX Designer](#) to create mockups and prototypes for testing
+
+### User Experience (UX) 
+
+- Creates mockups and prototypes
+- Works with the User Researcher to test the mockups and prototypes
+
+### Product Team
+
 Each Product Team is responsible jointly for designing and delivering a specific part of the product, and is a multi-disciplinary mixture of generalists and specialists . A role may exist in one or more people in the team.
-Note that scaling up a Product Team beyond 9 people usually leads to inefficiencies . It’s better to split Product Teams when the product grows beyond what can be handled by one team.
-The Product Team plays a part throughout the Product Innovation Funnel, as the user research and investigations they undertake will identify which innovations to move onto the next stage, and maybe even onto full development as user stories.
-Product owner 
-●   Liaises closely with the Product Manager to identify priorities
-●   Defines and prioritises the user stories and tasks to go into the next sprint
-●   Defines the top priority items in enough detail so they are READY for the product developers to build and test each item in a few days
-●   Reviews the outputs from each sprint
-User research
-●   Undertakes user research to understand what new features are required and how they might work
-●   Works with the UX Designer to create mockups and prototypes for testing
-UX designer
-●   Creates mockups and prototypes according to the UI Pattern Library
-●   Works with the User Researcher to test the mockups and prototypes
-●   Feeds new ideas into the Lead Designer for inclusion in the UI Pattern Library
-Lead developer
-This role may be taken by the Development Manager shared resource.
-●   Promotes and polices the coding standards
-●   Coaches the developers in best practice
-●   Reviews all code produced by the developers
-●   Checks that each user story has met the Definition of Done agreed by the team
-Front end developer
-●   Produces front end interfaces ready to tie into the back end
-●   Creates and runs automated tests for each component
-Back end developer
-●   Produces back end code to interface with the database and other systems
-●   Creates and runs automated tests for each component
-Tester
-●   Tests that each developed user story meets the acceptance criteria set out by the Product Owner
-Technical author
-●   Maintains user-facing documentation (eg. help videos, manuals, FAQs) for use by the Support Team and by users of the application
-Shared resources
-These people are likely to be shared across two or more Product Teams.
-Scrum Master
-●   Remove impediments to progress
-●   Facilitates meetings
-●   Works with the team product owner to make sure the product backlog is in good shape and ready for the next sprint
-●   Provokes improvements to the way the team is working
-Software Architect
-●   Undertakes “spikes” during a sprint to investigate new technology ideas
-●   Maintains an overview of the software architecture
-●   Ensures sufficient documentation is in place regarding application-wide, APIs, structure etc
-Development Manager
-●   Maintains and promotes coding standards
-●   Acts as the interface with the release team in Operations
-Lead Designer
-●   Develops and maintains the User Interface design patterns 
-●   Liaises with the Product Teams to ensure the design patterns are being used appropriately, and to bring in new patterns if necessary
-●   Works with the user researchers to understand pain points in the user experience 
-Product standards framework
+
+Note that scaling up a Product Team beyond 9 people usually leads to inefficiencies. It’s better to split Product Teams when the product grows beyond what can be handled by one team.
+
+The Product Team will include all the skills necessary to take the user stories and turn them into something that someone can use.
+
+### Scrum Master
+
+- Remove impediments to progress
+- Facilitates meetings
+- Works with the Product Owner to make sure the product backlog is in good shape and ready for the next sprint
+- Provokes improvements to the way the team is working
+
+## Product standards framework
+
 These standards are designed to help the Senior Management Team in its governance role. They provide a framework against which the Product Manager must report.
-Understand user needs
-How does the Product Manager know that the product is meeting user needs? What research has been done? What were the conclusions from the research?
-Iterate and improve
-What is going well? What improvements are you making to the development process? What improvements are you making to the product? How will you know they have made a difference?
-Evaluate
-What measures are we using to understand and improve the product?
-Security and privacy
-What are our customers’ expectations? Are we meeting those expectations? What risks are we currently running with? How are we mitigating those risks?
+
+### Understand user needs
+
+- How does the Product Manager know that the product is meeting user needs?
+- What research has been done?
+- What were the conclusions from the research?
+
+### Iterate and improve
+
+- What is going well?
+- What improvements are you making to the development process?
+- What improvements are you making to the product?
+- How will you know they have made a difference?
+
+### Evaluate
+
+- What measures are we using to understand and improve the product?
+
+### Security and privacy
+
+- What are our customers’ expectations?
+- Are we meeting those expectations?
+- What risks are we currently running with?
+- How are we mitigating those risks?|
 
  
 End to end product management process
@@ -119,10 +135,10 @@ Few betas
 One product
 
 Often the Product Innovation Funnel is described using the following stages:
-●   Discovery - find out what your customers need, and consider ways you can meet those needs, whether they fit your company’s strategy, and the team needed to make it happen.
-●   Alpha - Try out, using prototypes, whether your solution is going to meet your customers’ needs. Consider how you will make the solution a reality.
-●   Beta - Build and test the solution with some of your customers. Does it meet their needs? What changes are needed to make it live?
-●   Live - Roll out the solution to the whole customer base.
+- Discovery - find out what your customers need, and consider ways you can meet those needs, whether they fit your company’s strategy, and the team needed to make it happen.
+- Alpha - Try out, using prototypes, whether your solution is going to meet your customers’ needs. Consider how you will make the solution a reality.
+- Beta - Build and test the solution with some of your customers. Does it meet their needs? What changes are needed to make it live?
+- Live - Roll out the solution to the whole customer base.
 The process is designed to filter out ideas that don’t need to get into the product. Each stage allows you to test the ideas, and move them on to the next stage.
 In a large organisation, with many tiers of management, it’s useful to put gateways in place as you move from one stage to the next.
 Stage   Work done   Work done by    Gateway Approval to move to next stage by
@@ -134,21 +150,21 @@ Live    Code released   Operations team n/a n/a
 Where do the ideas come from?
 Ideas come into the Product Innovation Funnel from internal or external sources.
 Internal sources    External sources
-●   Sales - as customers identify new requirements, or make comparisons to other products
-●   Product Teams - as they identify improvements that could be made based on their user research and technology spikes
-●   Product board
-●   Application & server analytics data ●   Customers - via feedback, usability testing, surveys, conversations
-●   Partners & suppliers
-●   Competitors
-●   Industry sources
-●   Market & demographic analysis
-●   Other industries (eg. CRM, ERM, CMS)
+- Sales - as customers identify new requirements, or make comparisons to other products
+- Product Teams - as they identify improvements that could be made based on their user research and technology spikes
+- Product board
+- Application & server analytics data - Customers - via feedback, usability testing, surveys, conversations
+- Partners & suppliers
+- Competitors
+- Industry sources
+- Market & demographic analysis
+- Other industries (eg. CRM, ERM, CMS)
 
 The Product Manager’s role is to maintain a constant awareness of each of these sources; instigating conversations, doing research, feeding ideas into the funnel, and making decisions about future priorities. Of course, you may also delegate this work to your Product Teams, who will have specialists who are there to help you.
 The key thing is to understand your users and their needs, by:
-●   reviewing existing evidence (for example, analytics, search logs, call centre data, previous research reports etc)
-●   interviewing and observing actual or likely users
-●   talking to people inside and outside your organisation who work with actual or likely users
+- reviewing existing evidence (for example, analytics, search logs, call centre data, previous research reports etc)
+- interviewing and observing actual or likely users
+- talking to people inside and outside your organisation who work with actual or likely users
 This work will probably be done primarily by the Product Teams as part of the ongoing work assigned to them by the Product Manager.
 Lean Canvas
 A lean canvas is an approach which enables ideas to be quickly tested in a thought experiment, and then rapidly dropped or moved on to the next stage.
@@ -171,59 +187,59 @@ Adapted from: https://www.usability.gov/how-to-and-tools/methods/personas.html
 Personas create reliable and realistic representations of your key user segments for reference.
 These representations should be based on your user research and web analytics. Remember, your personas are only as good as the research behind them.
 Effective personas:
-●   Represent a major user group for your application
-●   Express and focus on the major needs and expectations of the most important user groups
-●   Give a clear picture of the user's expectations and how they're likely to use the application
-●   Aid in uncovering universal features and functionality
-●   Describe real people with backgrounds, goals, and values
+- Represent a major user group for your application
+- Express and focus on the major needs and expectations of the most important user groups
+- Give a clear picture of the user's expectations and how they're likely to use the application
+- Aid in uncovering universal features and functionality
+- Describe real people with backgrounds, goals, and values
 Benefits of Personas
 Personas help to focus decisions by adding a layer of real-world consideration to the conversation. They also offer a quick and inexpensive way to test and prioritize those features throughout the development process.
 They can help:
-●   The Product Manager and Senior Management evaluate new ideas
-●   UX designers develop informed mockups, interface behaviors, and labeling
-●   Developers decide which approaches to take based on user behaviors
+- The Product Manager and Senior Management evaluate new ideas
+- UX designers develop informed mockups, interface behaviors, and labeling
+- Developers decide which approaches to take based on user behaviors
 Best Practices for Developing Personas
 Limit yourself to the main audiences for the site. For any given project, creating only three or four personas is best.
 Remember that it is better to paint with a broad brush and meet the needs of the larger populations than try to meet the needs of everyone. The goal of personas is not represent all audiences or address all needs but instead to focus on the major needs of the most important user groups.
 When moving into a new geographical market, it may be useful to identify personas that bring out societal & legal characteristics for that location, eg. in Germany, data protection is likely to be a very high priority.
 To ensure your personas are accurate representations of your users and have the support of your stakeholders throughout the process, you should:
-●   Conduct user research: Answer the following questions: Who are your users and why are they using the system? What behaviors, assumptions, and expectations color their view of the system?
-●   Condense the research: Look for themes/characteristics that are specific, relevant, and universal to the system and its users.
-●   Brainstorm: Organize elements into persona groups that represent your target users. Name or classify each group.
-●   Refine: Combine and prioritize the rough personas. Separate them into primary, secondary, and, if necessary, complementary categories. You should have roughly 3-5 personas and their identified characteristics.
-●   Make them realistic: Develop the appropriate descriptions of each personas background, motivations, and expectations. Do not include a lot of personal information. Be relevant and serious - humor is not appropriate.
+- Conduct user research: Answer the following questions: Who are your users and why are they using the system? What behaviors, assumptions, and expectations color their view of the system?
+- Condense the research: Look for themes/characteristics that are specific, relevant, and universal to the system and its users.
+- Brainstorm: Organize elements into persona groups that represent your target users. Name or classify each group.
+- Refine: Combine and prioritize the rough personas. Separate them into primary, secondary, and, if necessary, complementary categories. You should have roughly 3-5 personas and their identified characteristics.
+- Make them realistic: Develop the appropriate descriptions of each personas background, motivations, and expectations. Do not include a lot of personal information. Be relevant and serious - humor is not appropriate.
 Questions to Ask During Persona Development
 The following questions and areas of discussion will help you construct a snapshot of the visitors to your site.
 Objective   Questions
 Describe the User   Personal
-●   What is the age of your person?
-●   What is the gender of your person?
-●   What is the highest level of education this person has received?
+- What is the age of your person?
+- What is the gender of your person?
+- What is the highest level of education this person has received?
 Professional
-●   How much work experience does your person have?
-●   What is your person’s professional background?  
-●   Why will they come to the site? (User needs, interests, and goals)
-●   Where (or from whom) else is this person getting information about your issue or similar programs or services?
-●   When and where will users access the site? (User environment and context)
+- How much work experience does your person have?
+- What is your person’s professional background?  
+- Why will they come to the site? (User needs, interests, and goals)
+- Where (or from whom) else is this person getting information about your issue or similar programs or services?
+- When and where will users access the site? (User environment and context)
 Technical
-●   What technological devices does your person use on a regular basis?
-●   What software and/or applications does your person use on a regular basis?
-●   Through what technological device does your user primarily access the web for information?
-●   How much time does your person spend browsing the web every day?
-User Motivation ●   What is your person motivated by? 
-●   What are they looking for?
-●   What is your person looking to do? 
-●   What are their needs?
+- What technological devices does your person use on a regular basis?
+- What software and/or applications does your person use on a regular basis?
+- Through what technological device does your user primarily access the web for information?
+- How much time does your person spend browsing the web every day?
+User Motivation - What is your person motivated by? 
+- What are they looking for?
+- What is your person looking to do? 
+- What are their needs?
 Elements of a Persona
 Personas generally include the following key pieces of information:
-●   Persona Group (eg. customer user administrator)
-●   Fictional name
-●   Job titles and major responsibilities
-●   Demographics such as age, education, ethnicity, and family status
-●   The goals and tasks they are trying to complete using the site
-●   Their physical, social, and technological environment
-●   A quote that sums up what matters most to the persona as it relates to your site
-●   Casual pictures representing that user group
+- Persona Group (eg. customer user administrator)
+- Fictional name
+- Job titles and major responsibilities
+- Demographics such as age, education, ethnicity, and family status
+- The goals and tasks they are trying to complete using the site
+- Their physical, social, and technological environment
+- A quote that sums up what matters most to the persona as it relates to your site
+- Casual pictures representing that user group
 Organize persona information in an easy to read, logical format. Depending on the amount of user research you were able to conduct and the nature of your organization, personas may be laid out in a number of ways, including:
 The Narrative   The Table   The Quick-and-Dirty
          
@@ -239,62 +255,62 @@ Adapted from: https://www.gov.uk/service-manual/user-research/creating-an-experi
 Preparation
 You need to capture the experience of several users before you create an experience map. Capture each stage of the experience on a separate card.
 Once you’ve done this:
-●   choose a quiet location with a wall (or table) large enough for you to arrange your cards and create a map. A writeable whiteboard is particularly helpful, so you can annotate the map.
-●   invite your team to help - reviewing users’ experiences will help them make decisions about how to design and build the product
-●   gather the event cards you used to capture users’ experiences and stacks of different coloured sticky notes or index cards
-●   decide a colour-coding scheme for your sticky notes - for example, blue for journey stages, yellow for steps in a process, green and red for emotional high and lows
+- choose a quiet location with a wall (or table) large enough for you to arrange your cards and create a map. A writeable whiteboard is particularly helpful, so you can annotate the map.
+- invite your team to help - reviewing users’ experiences will help them make decisions about how to design and build the product
+- gather the event cards you used to capture users’ experiences and stacks of different coloured sticky notes or index cards
+- decide a colour-coding scheme for your sticky notes - for example, blue for journey stages, yellow for steps in a process, green and red for emotional high and lows
 Identify common stages
 Start by:
-●   laying out event cards for each participant in a row
-●   line up common events
-●   break the rows into stages
-●   name each stage you’ve identified - use your colour-coded sticky notes to remind people that your aim at this point is to create a simple map - it’s ok to start with only a few stages and iterate as you understand more
+- laying out event cards for each participant in a row
+- line up common events
+- break the rows into stages
+- name each stage you’ve identified - use your colour-coded sticky notes to remind people that your aim at this point is to create a simple map - it’s ok to start with only a few stages and iterate as you understand more
 Once you’ve laid out your users’ journeys, decide how many maps to create. You should:
-●   create one consolidated map if all your research participants went through the same steps
-●   create separate maps for different user groups if participants went through different steps
+- create one consolidated map if all your research participants went through the same steps
+- create separate maps for different user groups if participants went through different steps
 Build up the experience
 Once you’ve established the stages you want to include, you need to add the steps involved in each. Together, these will form the ‘spine’ of the experience.
 You can add to this by extracting important information from event cards. Look for evidence of:
-●   emotional highs and lows - record these on different coloured sticky notes and add relevant quotes
-●   people’s reactions and thought processes
-●   Touchpoints with the Operations team
-●   Touchpoints with the Software
-●   user needs at specific stages
+- emotional highs and lows - record these on different coloured sticky notes and add relevant quotes
+- people’s reactions and thought processes
+- Touchpoints with the Operations team
+- Touchpoints with the Software
+- user needs at specific stages
 You can also add photos and artefacts collected during your research.
 Live with the map
 Once you’ve created a draft map, move it to your team area. Over the next few days or week:
-●   talk it over with your team
-●   show it to lots of people - for example, people who observed your research with users, the support team, other researchers
-●   review, rearrange, rename and reword things until you’re happy the map is both clear and accurately reflects your users’ experience
+- talk it over with your team
+- show it to lots of people - for example, people who observed your research with users, the support team, other researchers
+- review, rearrange, rename and reword things until you’re happy the map is both clear and accurately reflects your users’ experience
 Draw a detailed map
 Once you’re happy with your draft map:
-●   draw it in your preferred graphics application
-●   print it at large scale and stick it on a wall in your team area
+- draw it in your preferred graphics application
+- print it at large scale and stick it on a wall in your team area
 Your map can be based on a simple grid design that shows the stages, steps and activities your users experience over time, like the example below.
  
 Image credit: http://whatusersdo.com/blog/what-is-customer-journey-mapping/ 
 Use your map to structure discussions about your users’ experience and how you’re working to improve it.
 Share a summary map
 Most people outside your team won’t be interested in detail, so make a summary map that you can share. This should:
-●   just show stages and key findings for each stage
-●   include a few images and quotes
-●   be self-explanatory - you shouldn’t have to explain it further
-●   be easy to read on both screen and paper
+- just show stages and key findings for each stage
+- include a few images and quotes
+- be self-explanatory - you shouldn’t have to explain it further
+- be easy to read on both screen and paper
 Prioritising
 The product backlog, if not carefully maintained, can become a dumping ground for hundreds (if not thousands) of product features and enhancements that may or may not add any true value for customers. Prioritisation paralysis regularly occurs as it becomes progressively harder to identify “killer” features, as they simply get overlooked by the “noise” generated by the scale of a backlog. 
 Prioritizing needs to be done by:
-●   The Product Manager - to decide what to move through into the next stage of the Innovation Funnel
-●   The Team Product Owner - to decide which tasks and user stories to put into the next sprint
+- The Product Manager - to decide what to move through into the next stage of the Innovation Funnel
+- The Team Product Owner - to decide which tasks and user stories to put into the next sprint
 We would recommend using a simple 2x2 prioritization matrix, as described in detail in https://www.mindtheproduct.com/2017/07/enter-matrix-lean-prioritisation/ 
  
 When considering the relative value of a backlog item, consider:
-●   Strategy – how does this feature fit the company’s overall strategy?
-●   Reach – How many customers does the feature impact? A feature that’s invaluable to small subset of customers is likely to have a lower relative value than a smaller feature that impacts your entire customer base
-●   Customers – Customers may not always be those paying for or using your product.  A customer could be a colleague or business unit within your own organisation
-●   Revenue – Will the feature drive revenue? If so, how much?
-●   Acquisition – Will the feature help drive new customers?
-●   Efficiency – Does the feature help drive efficiency in customers’ lives – be that internal customers (colleagues), or external (paying) customers?
-●   Brand – Does the feature enhance your brand awareness?
+- Strategy – how does this feature fit the company’s overall strategy?
+- Reach – How many customers does the feature impact? A feature that’s invaluable to small subset of customers is likely to have a lower relative value than a smaller feature that impacts your entire customer base
+- Customers – Customers may not always be those paying for or using your product.  A customer could be a colleague or business unit within your own organisation
+- Revenue – Will the feature drive revenue? If so, how much?
+- Acquisition – Will the feature help drive new customers?
+- Efficiency – Does the feature help drive efficiency in customers’ lives – be that internal customers (colleagues), or external (paying) customers?
+- Brand – Does the feature enhance your brand awareness?
 Prototypes
 At each stage in the Product Innovation process, whenever you’re trying to test ideas with other people, it’s usually good to a  have a visual means to communicate those ideas.
 In the Product Team suggested above, this work would be done by a UX Designer, as a task specified for a particular sprint, in conjunction with the User Researcher’s work.
@@ -313,15 +329,15 @@ Product management tools
 Many organisations with complex product sets and customer requirements benefit from a product management software solution like Aha, ProdPad   and Portfolio for Jira.
 
 In general, these tools help the Product Management team to:
-●   Document strategic goals
-●   Collect ideas from customers
-●   Define features and requirements
-●   Map ideas to strategic goals
-●   Prioritize
-●   Define user stories
-●   Collaborate
-●   Publish a roadmap to stakeholders
-●   Integrate into the product development workflow
+- Document strategic goals
+- Collect ideas from customers
+- Define features and requirements
+- Map ideas to strategic goals
+- Prioritize
+- Define user stories
+- Collaborate
+- Publish a roadmap to stakeholders
+- Integrate into the product development workflow
 The Development Process
 Once an idea has been through the funnel, and been recommended for development, it then should be created as a User Story to be worked on by the relevant Product Team.
 Each User Story will go through the following process.
@@ -333,9 +349,9 @@ The Product Owner’s role here is to define the requirement sufficiently well f
 See: https://www.cleverism.com/product-management-101-tips-writing-good-user-stories/ 
 Definition of Ready
 A User Story will not be allowed into the next stage until it meets the Product Team’s Definition of Ready - which usually includes criteria to ensure that the User Story is:
-●   clear (everyone understands it)
-●   feasible (it can be completed and tested within the given timeframe)
-●   testable (it has one or more tests defined against which the developers will work).
+- clear (everyone understands it)
+- feasible (it can be completed and tested within the given timeframe)
+- testable (it has one or more tests defined against which the developers will work).
 For example, one team’s Definition of Ready may look like:
 1.  Story must be written as a user story (i.e. “As a <kind of user> I want <feature> so that <benefit>”)
 2.  Acceptance criteria must be written in Gherkin format (see below) and be understood by team
@@ -375,21 +391,21 @@ The norm these days is to estimate each individual requirement (user story), aft
 “Story points are a unit of measure for expressing an estimate of the overall effort that will be required to fully implement a product backlog item or any other piece of work. When we estimate with story points, we assign a point value to each item. The raw values we assign are unimportant. What matters are the relative values”. 
 Many teams use a Fibonacci scale for story points: 1, 2, 3, 5, 8, 13, 21, and estimate them using a consensus based technique known as “planning poker” .
 Estimation should be:
-●   Collaborative - allowing the team to take ownership (and responsibility), not an individual
-●   Relative - compared to another piece of work done by the same team
-●   Fast - to do otherwise would be wasteful, as estimates provide no value to the customer, they are simply to help prioritise work, and to generate high-level common understanding and expectations. 
+- Collaborative - allowing the team to take ownership (and responsibility), not an individual
+- Relative - compared to another piece of work done by the same team
+- Fast - to do otherwise would be wasteful, as estimates provide no value to the customer, they are simply to help prioritise work, and to generate high-level common understanding and expectations. 
 Build
 The Product Owner’s role here should be minimal. If necessary, you will provide clarification to the developers.
 The developers will be working to the team’s agreed Definition of Done.
 Definition of Done
 A typical Definition of Done would be something similar to:
-●   The code meets the Acceptance Criteria
-●   The code meets the organisations’ code style guide 
-●   The UI meets the company’s accessibility standards
-●   The code has been pushed to the shared repository
-●   The code has been reviewed by a lead developer
-●   The code comes with and has passed automated tests at all appropriate levels. (That is, unit, service and user interface.)
-●   The feature the code implements has been documented in any end-user documentation such as manuals or help systems
+- The code meets the Acceptance Criteria
+- The code meets the organisations’ code style guide 
+- The UI meets the company’s accessibility standards
+- The code has been pushed to the shared repository
+- The code has been reviewed by a lead developer
+- The code comes with and has passed automated tests at all appropriate levels. (That is, unit, service and user interface.)
+- The feature the code implements has been documented in any end-user documentation such as manuals or help systems
 Test
 The Product Owner’s role here should be non-existent.
 The testers will ensure that the code fulfills the Acceptance Criteria.
@@ -411,9 +427,9 @@ Each stage in the flow below is handled independently, with large amounts of wor
  
 Any changes that need to happen after the requirements document is written and signed-off mean going through a change control process. This would evaluate the impact and get the change added into the document and then fed through into the rest of the process.
 Many pieces of software have been created using this process, but they often suffer from:
-●   Late delivery
-●   Bugs in the released code
-●   Poor translation of the requirements into a finished product
+- Late delivery
+- Bugs in the released code
+- Poor translation of the requirements into a finished product
  
 https://blog.lansa.com/application-development/ambiguity-in-requirements 
 Agile development
@@ -424,11 +440,11 @@ The planning process combines elements of prioritization and definition.
  
 User Stories that have been reviewed and accepted will then be available for Release, at a point to be decided by the Product Manager.
 The agile approach brings a number of benefits:
-●   Higher product quality - as the testing is much more frequent, and the Product Owner can make changes more easily
-●   Higher customer satisfaction - as the Product Owner’s input is ongoing
-●   Increased product control - as the process encourages transparency and frequent reviews
-●   Reduced risks - faults and issues are brought to light very quickly and not allowed to build up and result in a large failure
-●   Faster ROI - agile methodologies encourage the development of working products, that can be released to a paying audience within a few iterations.
+- Higher product quality - as the testing is much more frequent, and the Product Owner can make changes more easily
+- Higher customer satisfaction - as the Product Owner’s input is ongoing
+- Increased product control - as the process encourages transparency and frequent reviews
+- Reduced risks - faults and issues are brought to light very quickly and not allowed to build up and result in a large failure
+- Faster ROI - agile methodologies encourage the development of working products, that can be released to a paying audience within a few iterations.
 Based on: https://apiumhub.com/tech-blog-barcelona/benefits-of-agile-project-management/ 
 Whilst we are majoring on the Scrum approach, which deals with Tasks and User Stories in batches known as Sprints, many organisations have adopted a continuous flow approach to development, known as Kanban. This maps out the whole Innovation Funnel into a continuous stream of cards that progress through the funnel.
 We’ve detailed the major features and benefits of each approach below:
@@ -515,7 +531,8 @@ https://www.mountaingoatsoftware.com/agile/user-stories
     
 
  
-Useful resources
+## Recommended Reading
+
 Product Management
 https://www.romanpichler.com/
 https://medium.com/@freshtilledsoil/how-to-prioritize-product-features-and-improvements-8aea72c8bf27 
@@ -539,4 +556,5 @@ Agile Project Management with Kanban
 Kanban in the XBOX development team
 Eric Brechner
 https://www.amazon.co.uk/Project-Management-Kanban-Developer-Practices/dp/0735698953
+Government Digital Service manual
 

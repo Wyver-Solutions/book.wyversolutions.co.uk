@@ -2,7 +2,7 @@
 
 ### Introduction
 
-* [Dev notes](100-dev-notes/index.md)
+* [How to help improve this book](005-dev-notes/index.md)
 * [License](010-license/index.md)
 
 ### People
@@ -20,3 +20,12 @@
 ### Projects
 
 * [Projects](050-projects/index.md)
+
+### Professional development
+
+* [Professional development](060-professional-development/index.md)
+
+### Publishing
+
+* [Publishing](070-publishing/index.md)
+
