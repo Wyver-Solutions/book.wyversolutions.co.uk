@@ -112,9 +112,11 @@ These standards are designed to help the Senior Management Team in its governanc
 - What risks are we currently running with?
 - How are we mitigating those risks?|
 
- 
-End to end product management process
-The diagram below illustrates the end to end process, from Research to Release. For detail on each term used, please see the Glossary.
+## End to end product management process
+
+The diagram below illustrates the end to end process, from Research to Release.
+
+For detail on each term used, please see the Glossary.
  
  
 Product Innovation Funnel
@@ -504,57 +506,43 @@ The diagram below illustrates where each tool might fit into the overall picture
 
 
  
-Glossary
-Item    Description
-Competitor analysis Identifying your competitors and evaluating their strategies to determine their strengths and weaknesses relative to those of your own product or service.
-https://www.entrepreneur.com/encyclopedia/competitive-analysis 
-Cost/benefit analysis   A process by which you weigh expected costs against expected benefits to determine the best (or most profitable) course of action.
-https://www.entrepreneur.com/encyclopedia/cost-benefit-analysis 
-Definition of Done  A user story is described as Done when the developed product meets all the criteria agreed by the team in their Definition of Done.
-https://manifesto.co.uk/definition-done/ 
-Definition of Ready A user story is described as Ready, when it has been defined so as to meet all the criteria agreed by the team in their Definition of Ready.
-https://manifesto.co.uk/the-definition-of-ready/ 
-Delivery    The process by which a user story is demonstrated to, tested by, and approved by the Product Owner.
-Product backlog A list of all things that needs to be done within the project. It replaces the traditional requirements specification artifacts. These items can have a technical nature or can be user-centric e.g. in the form of user stories.
-https://www.scrum-institute.org/The_Scrum_Product_Backlog.php 
-Product owner   A member of the Agile Team responsible for defining Stories and prioritizing the Team Backlog to streamline the execution of program priorities while maintaining the conceptual and technical integrity of the Features or components for the team.
-http://www.scaledagileframework.com/product-owner/ 
-Release A product release is the launch of a new product or a combination of features that will provide value to customers or users.
-https://www.aha.io/roadmapping/guide/release-management 
-Sprint backlog  The sprint backlog is a list of tasks identified by the Scrum team to be completed during the Scrum sprint.
-https://www.mountaingoatsoftware.com/agile/scrum/scrum-tools/sprint-backlog 
-User needs  ‘User needs’ are the needs that members of the public, businesses or customers have of our product or service.
-https://www.gov.uk/guidance/content-design/user-needs 
-User stories    User stories contain short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system, plus any additional detail to enable the developer to test that their work has met the requirement.
-https://www.mountaingoatsoftware.com/agile/user-stories 
+
     
     
 
  
 ## Recommended Reading
 
-Product Management
+## Product Management
+
 https://www.romanpichler.com/
+
 https://medium.com/@freshtilledsoil/how-to-prioritize-product-features-and-improvements-8aea72c8bf27 
-Product Design
-Don’t make me think
-A common sense approach to web usability
-Steve Krug
-https://www.amazon.co.uk/Dont-Make-Me-Think-Usability/dp/0321344758 
-Agile Development
-Lean from the Trenches
-Managing large-scale projects with Kanban
-Henrik Kniberg
-https://www.crisp.se/file-uploads/Lean-from-the-trenches.pdf
-Scrum
-A breathtakingly brief and agile introduction
-Chris Sims & Hillary Louise Johnson
-https://www.amazon.co.uk/Scrum-Breathtakingly-Brief-Agile-Introduction/dp/193796504X
-Explaining Scrum in 120 seconds
-https://www.youtube.com/watch?v=WxiuE-1ujCM
-Agile Project Management with Kanban
-Kanban in the XBOX development team
-Eric Brechner
-https://www.amazon.co.uk/Project-Management-Kanban-Developer-Practices/dp/0735698953
+
 Government Digital Service manual
+
+### Product Design
+
+Don’t make me think - A common sense approach to web usability, Steve Krug
+https://www.amazon.co.uk/Dont-Make-Me-Think-Usability/dp/0321344758 
+
+### Agile Development
+
+Lean from the Trenches - Managing large-scale projects with Kanban, Henrik Kniberg
+
+https://www.crisp.se/file-uploads/Lean-from-the-trenches.pdf
+
+### Scrum
+
+A breathtakingly brief and agile introduction, Chris Sims & Hillary Louise Johnson
+
+https://www.amazon.co.uk/Scrum-Breathtakingly-Brief-Agile-Introduction/dp/193796504X
+
+Explaining Scrum in 120 seconds - https://www.youtube.com/watch?v=WxiuE-1ujCM
+
+Agile Project Management with Kanban - Kanban in the XBOX development team, Eric Brechner
+
+https://www.amazon.co.uk/Project-Management-Kanban-Developer-Practices/dp/0735698953
+
+
 
