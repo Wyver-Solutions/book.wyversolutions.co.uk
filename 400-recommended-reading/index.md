@@ -1,3 +1,7 @@
+---
+title: Recommended reading
+---
+
 - RSS feeds
 - Conferences
 - Social media (limited)

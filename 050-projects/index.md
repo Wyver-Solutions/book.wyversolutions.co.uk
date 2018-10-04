@@ -1,7 +1,0 @@
-- Agile or waterfall
-- Why agile?
-- Why waterfall?
-- Key features of both
-- Lessons learned
-- Product owner
-- Quick deliverables

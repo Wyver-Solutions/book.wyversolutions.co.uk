@@ -1,0 +1,14 @@
+---
+title: Principles of product and project management
+---
+- Lean principles
+- Agile product development overview
+- Lean canvas
+- Writing skills
+- Agile or waterfall
+- Why agile?
+- Why waterfall?
+- Key features of both
+- Lessons learned
+- Product owner
+- Quick deliverables
